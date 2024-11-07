@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'ROBOTO', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+span {
+    color: red;
+    font-weight: 600;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.links {
+    margin-left: auto;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.text {
+    font-size: 48px;
+    margin-bottom: 0;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.small {
+    font-size: 18px;
+    margin-top: 0px;
+    color: #E5E7EB;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+}
+
+.information {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.info-header {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.info {
+    max-width: 180px;
+}
+
+.info img {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 22px;
+    padding: 25px 15%;
+}
+
+#left {
+    text-align: end;
+}
+
+.action {
+    padding: 60px 15%;
+}
+
+.box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#text-1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #F9FAF8;
+
+}
+
+#text-2 {
+    margin-top: 0px;
+    color: #F9FAF8;
+}
+
+.box button {
+    font-weight: 800;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 25%;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
